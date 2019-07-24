@@ -1,0 +1,15 @@
+import turtle
+turtle.shape('turtle')
+rami= turtle.clone()
+rami.shape('triangle')
+rami.goto(100,0)
+rami.stamp()
+rami.goto(100,100)
+rami.stamp()
+rami.goto(0,100)
+rami.stamp()
+rami.goto(0,0)
+rami.stamp()
+rami.clearstamps()
+turtle.mainloop()
+
